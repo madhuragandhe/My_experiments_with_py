@@ -1,4 +1,4 @@
-# H1 My_experiments_with_py
+**My_experiments_with_py**
 
 **Small python projects mainly related to videos and images.**
 
