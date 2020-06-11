@@ -52,7 +52,7 @@ def greeting():
     hour_check()
     # date()
     # time()
-    speak("Jojo at your service, please tell how can i help you")
+    speak("Jarvis at your service, please tell how can i help you")
 
 def take_cmd():
     r=sr.Recognizer()
@@ -75,8 +75,8 @@ def send_mail(to_m,content):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    from_m='gandhemadhura@gmail.com'
-    server.login(from_m)
+    from_m='your_mail@mail.com'
+    server.login(from_m,'password')
     server.sendmail(from_m,to_m,content)
     server.close()
 
