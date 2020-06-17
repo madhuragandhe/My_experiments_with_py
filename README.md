@@ -10,3 +10,4 @@
 4. video_to_audio.py : It converts a given video file to the .mp3 format.
 5. Jarvis : It does most of your work as you command it.
 6. QRcode_generator : It generates QR code for the website you enter.
+7. PDF_extractor : It extracts text data from the entered pdf and stores it in the txt file of the same name
