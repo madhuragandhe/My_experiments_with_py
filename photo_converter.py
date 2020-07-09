@@ -1,4 +1,5 @@
-#Python program to convert a photo to black and white
+# Pencil sketch
+# Python program to convert a photo to black and white
 from PIL import Image
 
 input_image = 'colored_we.png'
